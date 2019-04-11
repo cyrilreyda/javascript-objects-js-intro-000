@@ -4,7 +4,7 @@ let playlist = {
   Rolling: "Not today"
 }
 
-const updatePlaylist = (obj, artist, songTitle) => {
-  obj.artist = songTitle;
-  return obj;
+const updatePlaylist = (playlist, artist, songTitle) => {
+  playlist.artist = songTitle;
+  return playlist;
 }
